@@ -78,16 +78,17 @@ export const ExamInterface: React.FC<ExamInterfaceProps> = ({
     return () => clearInterval(timer);
   }, [config.timed, handleFinalSubmit]);
 
-  // Handle option select
+  // Handle option select — instant feedback on selection
   const handleSelectOption = (optionId: OptionId) => {
-    // In practice mode, if already revealed, allow retry or prevent change
-    if (config.mode === 'practice' && currentQ.isRevealed) {
+    // If already revealed (answered), prevent change until retry
+    if (currentQ.isRevealed) {
       return;
     }
 
     const updated: ActiveExamQuestion = {
       ...currentQ,
       userSelectedAnswer: optionId,
+      isRevealed: true, // Instantly reveal correct/incorrect feedback
     };
     onUpdateQuestion(currentIndex, updated);
   };
@@ -143,8 +144,6 @@ export const ExamInterface: React.FC<ExamInterfaceProps> = ({
         handleSelectOption('D');
       } else if (e.key === 'f' || e.key === 'F') {
         handleToggleFlag();
-      } else if (e.key === 'Enter' && config.mode === 'practice' && currentQ.userSelectedAnswer && !currentQ.isRevealed) {
-        handleCheckAnswer();
       } else if (e.key === '?') {
         onOpenShortcuts();
       }
@@ -302,7 +301,7 @@ export const ExamInterface: React.FC<ExamInterfaceProps> = ({
           <div className="options-list">
             {currentQ.options.map(option => {
               const isSelected = currentQ.userSelectedAnswer === option.id;
-              const isRevealed = config.mode === 'practice' && currentQ.isRevealed;
+              const isRevealed = currentQ.isRevealed === true;
               const isCorrectAnswer = option.id === currentQ.correctAnswer;
               const isUserWrongChoice = isSelected && !isCorrectAnswer;
 
@@ -340,61 +339,47 @@ export const ExamInterface: React.FC<ExamInterfaceProps> = ({
             })}
           </div>
 
-          {/* Practice Mode Instant Explanation Box */}
-          {config.mode === 'practice' && (
-            <div>
-              {!currentQ.isRevealed ? (
-                <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
-                  <button
-                    className="btn btn-primary"
-                    disabled={!currentQ.userSelectedAnswer}
-                    onClick={handleCheckAnswer}
-                  >
-                    <CheckCircle2 size={16} />
-                    <span>Check Answer (Enter)</span>
-                  </button>
+          {/* Instant Answer Feedback Box — shown in ALL modes */}
+          {currentQ.isRevealed && (
+            <div 
+              style={{ 
+                marginTop: '1rem', 
+                padding: '1.25rem', 
+                borderRadius: '14px', 
+                background: currentQ.userSelectedAnswer === currentQ.correctAnswer 
+                  ? 'var(--status-success-light)' 
+                  : 'var(--status-danger-light)',
+                border: `1px solid ${currentQ.userSelectedAnswer === currentQ.correctAnswer 
+                  ? 'var(--status-success-border)' 
+                  : 'var(--status-danger-border)'}`,
+                animation: 'fadeSlideIn 0.3s ease-out',
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700 }}>
+                  {currentQ.userSelectedAnswer === currentQ.correctAnswer ? (
+                    <>
+                      <CheckCircle2 size={18} color="var(--status-success)" />
+                      <span style={{ color: 'var(--status-success)' }}>Correct!</span>
+                    </>
+                  ) : (
+                    <>
+                      <XCircle size={18} color="var(--status-danger)" />
+                      <span style={{ color: 'var(--status-danger)' }}>
+                        Incorrect! The correct answer is: {currentQ.correctAnswer}
+                      </span>
+                    </>
+                  )}
                 </div>
-              ) : (
-                <div 
-                  style={{ 
-                    marginTop: '1rem', 
-                    padding: '1.25rem', 
-                    borderRadius: '14px', 
-                    background: currentQ.userSelectedAnswer === currentQ.correctAnswer 
-                      ? 'var(--status-success-light)' 
-                      : 'var(--status-danger-light)',
-                    border: `1px solid ${currentQ.userSelectedAnswer === currentQ.correctAnswer 
-                      ? 'var(--status-success-border)' 
-                      : 'var(--status-danger-border)'}` 
-                  }}
-                >
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 700 }}>
-                      {currentQ.userSelectedAnswer === currentQ.correctAnswer ? (
-                        <>
-                          <CheckCircle2 size={18} color="var(--status-success)" />
-                          <span style={{ color: 'var(--status-success)' }}>Correct!</span>
-                        </>
-                      ) : (
-                        <>
-                          <XCircle size={18} color="var(--status-danger)" />
-                          <span style={{ color: 'var(--status-danger)' }}>
-                            Incorrect (Correct: {currentQ.correctAnswer})
-                          </span>
-                        </>
-                      )}
-                    </div>
 
-                    <button className="btn btn-ghost btn-sm" onClick={handleRetryQuestion}>
-                      <RotateCcw size={14} /> Retry Question
-                    </button>
-                  </div>
+                <button className="btn btn-ghost btn-sm" onClick={handleRetryQuestion}>
+                  <RotateCcw size={14} /> Retry
+                </button>
+              </div>
 
-                  <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--text-primary)' }}>
-                    <strong>Explanation:</strong> {currentQ.explanation}
-                  </p>
-                </div>
-              )}
+              <p style={{ fontSize: '0.9rem', lineHeight: 1.6, color: 'var(--text-primary)' }}>
+                <strong>Explanation:</strong> {currentQ.explanation}
+              </p>
             </div>
           )}
 
