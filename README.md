@@ -1,5 +1,10 @@
 # TechExam Pro — Interactive Technical MCQ Exam Simulator
 
+[![Live Website](https://img.shields.io/badge/Live_Site-Online-success?style=for-the-badge&logo=github)](https://youssefnasr909.github.io/ta5asosy/)
+[![Total Questions](https://img.shields.io/badge/Question_Bank-300_Questions-blue?style=for-the-badge)](https://youssefnasr909.github.io/ta5asosy/)
+
+**🌐 Live Demo:** **[https://youssefnasr909.github.io/ta5asosy/](https://youssefnasr909.github.io/ta5asosy/)**
+
 A local-first, full-stack technical assessment platform and exam simulator covering **Computer Networking**, **SQL Fundamentals**, and **Database Fundamentals**. Built with **React 19**, **TypeScript**, and **Vite**, featuring modern responsive design, dark/light modes, dual exam engines (Practice vs. Exam Simulation), question bank explorer, progress persistence, and 300 rigorously verified questions.
 
 ---
