@@ -1,0 +1,2792 @@
+[
+  {
+    "id": "net-orig-01",
+    "topic": "Computer Networking",
+    "subtopic": "Network Types & Architecture",
+    "question": "What does the acronym LAN stand for?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Local Access Network"
+      },
+      {
+        "id": "B",
+        "text": "Local Area Network"
+      },
+      {
+        "id": "C",
+        "text": "Large Area Network"
+      },
+      {
+        "id": "D",
+        "text": "Linked Access Node"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "LAN stands for Local Area Network, which connects computers and devices within a limited geographical area such as a home, school, or office building.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-02",
+    "topic": "Computer Networking",
+    "subtopic": "OSI & TCP/IP Models",
+    "question": "How many layers are in the OSI Model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 Layers"
+      },
+      {
+        "id": "B",
+        "text": "5 Layers"
+      },
+      {
+        "id": "C",
+        "text": "7 Layers"
+      },
+      {
+        "id": "D",
+        "text": "6 Layers"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Open Systems Interconnection (OSI) reference model consists of 7 conceptual layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-03",
+    "topic": "Computer Networking",
+    "subtopic": "OSI & TCP/IP Models",
+    "question": "Which layer of OSI handles IP routing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data Link"
+      },
+      {
+        "id": "B",
+        "text": "Network Layer"
+      },
+      {
+        "id": "C",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "D",
+        "text": "Session Layer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Network Layer (Layer 3) is responsible for logical addressing (IP addresses), packet routing across interconnected networks, and path determination.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-04",
+    "topic": "Computer Networking",
+    "subtopic": "Protocols & Addressing",
+    "question": "What is the main function of ARP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resolve IP to MAC Address"
+      },
+      {
+        "id": "B",
+        "text": "Resolve Name to IP"
+      },
+      {
+        "id": "C",
+        "text": "Encrypt traffic"
+      },
+      {
+        "id": "D",
+        "text": "Assign IP address"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Address Resolution Protocol (ARP) translates known 32-bit IPv4 addresses into corresponding 48-bit physical MAC addresses on a local broadcast network.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-05",
+    "topic": "Computer Networking",
+    "subtopic": "Application Layer Protocols",
+    "question": "Which protocol resolves domain names to IP addresses?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHCP"
+      },
+      {
+        "id": "B",
+        "text": "DNS"
+      },
+      {
+        "id": "C",
+        "text": "HTTP"
+      },
+      {
+        "id": "D",
+        "text": "FTP"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Domain Name System (DNS) is the hierarchical distributed naming system that translates human-readable hostnames (e.g. example.com) into numerical IP addresses.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-06",
+    "topic": "Computer Networking",
+    "subtopic": "Application Layer Protocols",
+    "question": "Which protocol automatically assigns IP addresses?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DNS"
+      },
+      {
+        "id": "B",
+        "text": "DHCP"
+      },
+      {
+        "id": "C",
+        "text": "ICMP"
+      },
+      {
+        "id": "D",
+        "text": "SNMP"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) dynamically and automatically allocates IP addresses, subnet masks, default gateways, and DNS servers to client devices.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-07",
+    "topic": "Computer Networking",
+    "subtopic": "IP Addressing & Subnetting",
+    "question": "What is the length of an IPv4 address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 bits"
+      },
+      {
+        "id": "B",
+        "text": "32 bits"
+      },
+      {
+        "id": "C",
+        "text": "64 bits"
+      },
+      {
+        "id": "D",
+        "text": "128 bits"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An IPv4 address is 32 bits (4 bytes) long, typically represented in dot-decimal notation (e.g., 192.168.1.1), providing approximately 4.3 billion addresses.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-08",
+    "topic": "Computer Networking",
+    "subtopic": "IP Addressing & Subnetting",
+    "question": "What is the length of an IPv6 address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "32 bits"
+      },
+      {
+        "id": "B",
+        "text": "64 bits"
+      },
+      {
+        "id": "C",
+        "text": "128 bits"
+      },
+      {
+        "id": "D",
+        "text": "256 bits"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "An IPv6 address is 128 bits (16 bytes) long, written as eight groups of four hexadecimal digits separated by colons, providing 2^128 unique addresses.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-09",
+    "topic": "Computer Networking",
+    "subtopic": "Data Link Layer & MAC",
+    "question": "A MAC address operates at which OSI layer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Physical"
+      },
+      {
+        "id": "B",
+        "text": "Data Link"
+      },
+      {
+        "id": "C",
+        "text": "Network"
+      },
+      {
+        "id": "D",
+        "text": "Transport"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Media Access Control (MAC) address is the hardware address assigned to network interface controllers and operates at the Data Link layer (Layer 2).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-10",
+    "topic": "Computer Networking",
+    "subtopic": "Data Link Layer & MAC",
+    "question": "What is the standard size of a MAC address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "32 bits"
+      },
+      {
+        "id": "B",
+        "text": "48 bits"
+      },
+      {
+        "id": "C",
+        "text": "64 bits"
+      },
+      {
+        "id": "D",
+        "text": "128 bits"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A standard Ethernet MAC address consists of 48 bits (6 bytes), commonly formatted as six pairs of hexadecimal digits (e.g., 00:1A:2B:3C:4D:5E).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-11",
+    "topic": "Computer Networking",
+    "subtopic": "Network Devices",
+    "question": "Which device connects different networks together?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Switch"
+      },
+      {
+        "id": "B",
+        "text": "Hub"
+      },
+      {
+        "id": "C",
+        "text": "Router"
+      },
+      {
+        "id": "D",
+        "text": "Repeater"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A Router operates at Layer 3 and connects distinct networks (e.g. connecting a local LAN to the Internet WAN), forwarding packets based on IP routing tables.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-12",
+    "topic": "Computer Networking",
+    "subtopic": "Network Devices",
+    "question": "A network device that broadcasts to all ports is a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Switch"
+      },
+      {
+        "id": "B",
+        "text": "Hub"
+      },
+      {
+        "id": "C",
+        "text": "Router"
+      },
+      {
+        "id": "D",
+        "text": "Gateway"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Hub is a Layer 1 device that blindly retransmits incoming electrical signals to all other connected ports without learning MAC addresses.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-13",
+    "topic": "Computer Networking",
+    "subtopic": "Ports & Protocols",
+    "question": "Which port number is used by HTTP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port 21"
+      },
+      {
+        "id": "B",
+        "text": "Port 53"
+      },
+      {
+        "id": "C",
+        "text": "Port 80"
+      },
+      {
+        "id": "D",
+        "text": "Port 443"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hypertext Transfer Protocol (HTTP) uses standard TCP port 80 for unencrypted web communication.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-14",
+    "topic": "Computer Networking",
+    "subtopic": "Ports & Protocols",
+    "question": "Which port number is used by HTTPS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port 80"
+      },
+      {
+        "id": "B",
+        "text": "Port 22"
+      },
+      {
+        "id": "C",
+        "text": "Port 443"
+      },
+      {
+        "id": "D",
+        "text": "Port 25"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hypertext Transfer Protocol Secure (HTTPS) uses TCP port 443, securing HTTP traffic with Transport Layer Security (TLS/SSL).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-15",
+    "topic": "Computer Networking",
+    "subtopic": "Transport Layer Protocols",
+    "question": "TCP is best described as a protocol that is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connectionless"
+      },
+      {
+        "id": "B",
+        "text": "Connection-oriented"
+      },
+      {
+        "id": "C",
+        "text": "Unreliable"
+      },
+      {
+        "id": "D",
+        "text": "Physical-layer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Transmission Control Protocol (TCP) is connection-oriented, requiring a 3-way handshake (SYN, SYN-ACK, ACK) before data transfer and providing guaranteed, ordered delivery.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-16",
+    "topic": "Computer Networking",
+    "subtopic": "Transport Layer Protocols",
+    "question": "UDP is best described as a protocol that is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connectionless"
+      },
+      {
+        "id": "B",
+        "text": "Connection-oriented"
+      },
+      {
+        "id": "C",
+        "text": "High reliability"
+      },
+      {
+        "id": "D",
+        "text": "Heavy overhead"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "User Datagram Protocol (UDP) is connectionless and lightweight; it sends packets without establishing a connection or guaranteeing packet order or delivery.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-17",
+    "topic": "Computer Networking",
+    "subtopic": "Network Troubleshooting & Utilities",
+    "question": "Which utility tests end-to-end network reachability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "nslookup"
+      },
+      {
+        "id": "B",
+        "text": "ping"
+      },
+      {
+        "id": "C",
+        "text": "ipconfig"
+      },
+      {
+        "id": "D",
+        "text": "netstat"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The ping utility sends ICMP Echo Request messages to an IP address or hostname to verify network reachability and measure round-trip time.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-18",
+    "topic": "Computer Networking",
+    "subtopic": "Network Troubleshooting & Utilities",
+    "question": "What protocol does the ping command use?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TCP"
+      },
+      {
+        "id": "B",
+        "text": "UDP"
+      },
+      {
+        "id": "C",
+        "text": "ICMP"
+      },
+      {
+        "id": "D",
+        "text": "IGMP"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Ping uses Internet Control Message Protocol (ICMP) Echo Request (Type 8) and Echo Reply (Type 0) packets to test connectivity.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-19",
+    "topic": "Computer Networking",
+    "subtopic": "Network Topologies",
+    "question": "In Star topology, all devices connect directly to a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Central Hub/Switch"
+      },
+      {
+        "id": "B",
+        "text": "Single Cable"
+      },
+      {
+        "id": "C",
+        "text": "Ring loop"
+      },
+      {
+        "id": "D",
+        "text": "Next device"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In a Star topology, every host connects via point-to-point links to a central network device such as a switch or hub. Failure of a single cable only impacts that one node.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-20",
+    "topic": "Computer Networking",
+    "subtopic": "Network Topologies",
+    "question": "What topology connects every device to every other device?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bus"
+      },
+      {
+        "id": "B",
+        "text": "Ring"
+      },
+      {
+        "id": "C",
+        "text": "Mesh"
+      },
+      {
+        "id": "D",
+        "text": "Star"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In a Full Mesh topology, every device is directly connected to every other device with n*(n-1)/2 physical connections, offering the highest redundancy and fault tolerance.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-21",
+    "topic": "Computer Networking",
+    "subtopic": "IP Addressing & Subnetting",
+    "question": "What is the loopback IPv4 address for local host testing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "192.168.1.1"
+      },
+      {
+        "id": "B",
+        "text": "127.0.0.1"
+      },
+      {
+        "id": "C",
+        "text": "10.0.0.1"
+      },
+      {
+        "id": "D",
+        "text": "255.255.255.255"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "127.0.0.1 is the standard loopback IPv4 address (assigned from the 127.0.0.0/8 block), used by a host to send network traffic back to itself without exiting to a physical network.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-22",
+    "topic": "Computer Networking",
+    "subtopic": "IP Addressing & Subnetting",
+    "question": "What default subnet mask is for a Class C network?",
+    "options": [
+      {
+        "id": "A",
+        "text": "255.0.0.0"
+      },
+      {
+        "id": "B",
+        "text": "255.255.0.0"
+      },
+      {
+        "id": "C",
+        "text": "255.255.255.0"
+      },
+      {
+        "id": "D",
+        "text": "255.255.255.255"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Class C networks have a default subnet mask of 255.255.255.0 (/24 prefix), where 24 bits designate the network portion and 8 bits accommodate up to 254 usable hosts.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-23",
+    "topic": "Computer Networking",
+    "subtopic": "Network Security & Protocols",
+    "question": "Which protocol is used for secure remote command line access?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Telnet"
+      },
+      {
+        "id": "B",
+        "text": "SSH"
+      },
+      {
+        "id": "C",
+        "text": "FTP"
+      },
+      {
+        "id": "D",
+        "text": "SMTP"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Secure Shell (SSH), running on port 22, encrypts all credentials and interactive terminal session data, replacing insecure plaintext Telnet.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-24",
+    "topic": "Computer Networking",
+    "subtopic": "Application Layer Protocols",
+    "question": "What protocol is primarily used to send emails?",
+    "options": [
+      {
+        "id": "A",
+        "text": "POP3"
+      },
+      {
+        "id": "B",
+        "text": "IMAP"
+      },
+      {
+        "id": "C",
+        "text": "SMTP"
+      },
+      {
+        "id": "D",
+        "text": "SNMP"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Simple Mail Transfer Protocol (SMTP, port 25/587) handles outbound email transmission and server-to-server routing, while POP3 and IMAP retrieve emails from mailboxes.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-25",
+    "topic": "Computer Networking",
+    "subtopic": "Transmission Media",
+    "question": "What media type uses light pulses for data transfer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coaxial"
+      },
+      {
+        "id": "B",
+        "text": "Twisted Pair"
+      },
+      {
+        "id": "C",
+        "text": "Fiber Optic"
+      },
+      {
+        "id": "D",
+        "text": "Wireless radio"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Fiber Optic cabling transmits digital data as light pulses through thin glass or plastic cores, offering high bandwidth, long distances, and total immunity to electromagnetic interference.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-26",
+    "topic": "Computer Networking",
+    "subtopic": "OSI & TCP/IP Models",
+    "question": "Data unit at the Transport Layer is called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bit"
+      },
+      {
+        "id": "B",
+        "text": "Frame"
+      },
+      {
+        "id": "C",
+        "text": "Packet"
+      },
+      {
+        "id": "D",
+        "text": "Segment"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The Protocol Data Unit (PDU) at the Transport Layer is known as a Segment in TCP (or a Datagram in UDP).",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-27",
+    "topic": "Computer Networking",
+    "subtopic": "OSI & TCP/IP Models",
+    "question": "Data unit at the Network Layer is called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Packet"
+      },
+      {
+        "id": "B",
+        "text": "Frame"
+      },
+      {
+        "id": "C",
+        "text": "Segment"
+      },
+      {
+        "id": "D",
+        "text": "Bit"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The PDU at the Network Layer (Layer 3) is called a Packet (e.g. an IP packet).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-28",
+    "topic": "Computer Networking",
+    "subtopic": "OSI & TCP/IP Models",
+    "question": "Data unit at the Data Link Layer is called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bit"
+      },
+      {
+        "id": "B",
+        "text": "Frame"
+      },
+      {
+        "id": "C",
+        "text": "Packet"
+      },
+      {
+        "id": "D",
+        "text": "Message"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The PDU at the Data Link Layer (Layer 2) is called a Frame (e.g., an Ethernet frame containing source and destination MAC addresses).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-29",
+    "topic": "Computer Networking",
+    "subtopic": "Routing & NAT",
+    "question": "What technique translates private IPs to a public IP?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NAT"
+      },
+      {
+        "id": "B",
+        "text": "DNS"
+      },
+      {
+        "id": "C",
+        "text": "DHCP"
+      },
+      {
+        "id": "D",
+        "text": "VPN"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Network Address Translation (NAT) modifies IP header address information while in transit across a traffic routing device, allowing an entire private LAN to share one or more public IPv4 addresses.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "net-orig-30",
+    "topic": "Computer Networking",
+    "subtopic": "Network Fundamentals & Transmission",
+    "question": "Simultaneous communication in both directions is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simplex"
+      },
+      {
+        "id": "B",
+        "text": "Half Duplex"
+      },
+      {
+        "id": "C",
+        "text": "Full Duplex"
+      },
+      {
+        "id": "D",
+        "text": "Multiplex"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Full Duplex allows bidirectional data transmission simultaneously between two connected systems (like modern switched Ethernet or telephone calls).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Networking_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-01",
+    "topic": "Database Fundamentals",
+    "subtopic": "DBMS Concepts & Architecture",
+    "question": "What is the primary purpose of a DBMS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Store & manage data efficiently"
+      },
+      {
+        "id": "B",
+        "text": "Speed up hardware"
+      },
+      {
+        "id": "C",
+        "text": "Compile code"
+      },
+      {
+        "id": "D",
+        "text": "Design web pages"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Database Management System (DBMS) is system software designed to create, maintain, query, and efficiently manage structured data while ensuring security and integrity.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-02",
+    "topic": "Database Fundamentals",
+    "subtopic": "Data vs Information",
+    "question": "Raw, unprocessed facts are defined as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Information"
+      },
+      {
+        "id": "B",
+        "text": "Data"
+      },
+      {
+        "id": "C",
+        "text": "Knowledge"
+      },
+      {
+        "id": "D",
+        "text": "Metadata"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Data consists of raw, unorganized facts, symbols, or observations without contextual meaning until processed.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-03",
+    "topic": "Database Fundamentals",
+    "subtopic": "Data vs Information",
+    "question": "Processed data that provides meaningful context is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metadata"
+      },
+      {
+        "id": "B",
+        "text": "Information"
+      },
+      {
+        "id": "C",
+        "text": "Database"
+      },
+      {
+        "id": "D",
+        "text": "Program"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Information is data that has been structured, interpreted, processed, or presented in a purposeful way that gives it context and meaning.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-04",
+    "topic": "Database Fundamentals",
+    "subtopic": "Data vs Information",
+    "question": "The term \"Metadata\" is best defined as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Big Data"
+      },
+      {
+        "id": "B",
+        "text": "Data about Data"
+      },
+      {
+        "id": "C",
+        "text": "Deleted Data"
+      },
+      {
+        "id": "D",
+        "text": "Duplicate Data"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Metadata is descriptive information about data characteristics, such as column names, data types, lengths, constraints, and relationships in a data dictionary.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-05",
+    "topic": "Database Fundamentals",
+    "subtopic": "DBMS Concepts & Architecture",
+    "question": "A major flaw of traditional file processing systems is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Data Redundancy"
+      },
+      {
+        "id": "B",
+        "text": "High Security"
+      },
+      {
+        "id": "C",
+        "text": "Easy Sharing"
+      },
+      {
+        "id": "D",
+        "text": "Low Storage Cost"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "File processing systems lead to high data redundancy (the same data duplicated across multiple independent application files), which creates inconsistency anomalies.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-06",
+    "topic": "Database Fundamentals",
+    "subtopic": "Data Models",
+    "question": "The most widely used data model in modern DBMS is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hierarchical"
+      },
+      {
+        "id": "B",
+        "text": "Relational Model"
+      },
+      {
+        "id": "C",
+        "text": "Network Model"
+      },
+      {
+        "id": "D",
+        "text": "Flat File"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Relational Model, introduced by E.F. Codd in 1970, models data into tables of rows and columns and remains the foundation of enterprise RDBMS platforms.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-07",
+    "topic": "Database Fundamentals",
+    "subtopic": "Relational Model Concepts",
+    "question": "In relational database theory, a table is called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Relation"
+      },
+      {
+        "id": "B",
+        "text": "Tuple"
+      },
+      {
+        "id": "C",
+        "text": "Attribute"
+      },
+      {
+        "id": "D",
+        "text": "Domain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In formal relational model mathematical terminology, a two-dimensional table representing an entity set is called a Relation.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-08",
+    "topic": "Database Fundamentals",
+    "subtopic": "Relational Model Concepts",
+    "question": "A single row in a relational table is formally called a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attribute"
+      },
+      {
+        "id": "B",
+        "text": "Tuple"
+      },
+      {
+        "id": "C",
+        "text": "Schema"
+      },
+      {
+        "id": "D",
+        "text": "Domain"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In formal relational algebra and database theory, a single row representing an entity instance is termed a Tuple.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-09",
+    "topic": "Database Fundamentals",
+    "subtopic": "Relational Model Concepts",
+    "question": "A column in a relational table represents an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attribute"
+      },
+      {
+        "id": "B",
+        "text": "Tuple"
+      },
+      {
+        "id": "C",
+        "text": "Relation"
+      },
+      {
+        "id": "D",
+        "text": "Instance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A column in a table defines a named property or characteristic of the relation and is formally designated as an Attribute.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-10",
+    "topic": "Database Fundamentals",
+    "subtopic": "Database Schemas & Instances",
+    "question": "The overall logical structure and design of a DB is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Schema"
+      },
+      {
+        "id": "B",
+        "text": "Instance"
+      },
+      {
+        "id": "C",
+        "text": "State"
+      },
+      {
+        "id": "D",
+        "text": "Query"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Database Schema is the formal blueprint, design, and structure of the database tables, fields, relationships, and constraints.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-11",
+    "topic": "Database Fundamentals",
+    "subtopic": "Database Schemas & Instances",
+    "question": "The actual content stored in a DB at a specific moment:",
+    "options": [
+      {
+        "id": "A",
+        "text": "DB Instance"
+      },
+      {
+        "id": "B",
+        "text": "DB Schema"
+      },
+      {
+        "id": "C",
+        "text": "Metadata"
+      },
+      {
+        "id": "D",
+        "text": "Architecture"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Database Instance (or database state / snapshot) is the collection of actual records and data values populated in the database at a specific point in time.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-12",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "In ER Diagrams, an Entity is represented by a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oval"
+      },
+      {
+        "id": "B",
+        "text": "Rectangle"
+      },
+      {
+        "id": "C",
+        "text": "Diamond"
+      },
+      {
+        "id": "D",
+        "text": "Line"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In classic Chen Entity-Relationship notation, an Entity type is represented graphically by a Rectangle.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-13",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "In ER Diagrams, an Attribute is represented by an:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oval / Ellipse"
+      },
+      {
+        "id": "B",
+        "text": "Rectangle"
+      },
+      {
+        "id": "C",
+        "text": "Diamond"
+      },
+      {
+        "id": "D",
+        "text": "Triangle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In Chen notation ER diagrams, attributes are depicted by Ovals / Ellipses connected by lines to their corresponding entity.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-14",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "In ER Diagrams, a Relationship is represented by a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circle"
+      },
+      {
+        "id": "B",
+        "text": "Diamond"
+      },
+      {
+        "id": "C",
+        "text": "Square"
+      },
+      {
+        "id": "D",
+        "text": "Dotted Line"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In ER diagrams, relationships between two or more entities are symbolized by Diamonds.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-15",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "A Weak Entity is an entity that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lacks a Primary Key on its own"
+      },
+      {
+        "id": "B",
+        "text": "Has no attributes"
+      },
+      {
+        "id": "C",
+        "text": "Is not in a table"
+      },
+      {
+        "id": "D",
+        "text": "Contains duplicate data"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Weak Entity cannot be uniquely identified by its own attributes alone and depends on an identifying relationship with an owner entity to establish its full key.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-16",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "An attribute that can be divided into smaller parts:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Composite Attribute"
+      },
+      {
+        "id": "B",
+        "text": "Derived Attribute"
+      },
+      {
+        "id": "C",
+        "text": "Multi-valued"
+      },
+      {
+        "id": "D",
+        "text": "Simple Attribute"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Composite Attribute can be subdivided into smaller sub-components (for example, FullName into FirstName and LastName, or Address into Street, City, and PostalCode).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-17",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "An attribute holding multiple values for a single entity:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Single-valued"
+      },
+      {
+        "id": "B",
+        "text": "Multi-valued Attribute"
+      },
+      {
+        "id": "C",
+        "text": "Derived"
+      },
+      {
+        "id": "D",
+        "text": "Stored"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Multi-valued Attribute can store more than one value for a given entity instance (e.g. PhoneNumbers or Degrees for an employee; drawn with double ovals).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-18",
+    "topic": "Database Fundamentals",
+    "subtopic": "ER Modeling",
+    "question": "The \"Degree\" of a relationship refers to the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Number of participating entities"
+      },
+      {
+        "id": "B",
+        "text": "Number of table rows"
+      },
+      {
+        "id": "C",
+        "text": "Number of columns"
+      },
+      {
+        "id": "D",
+        "text": "Size of the database"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Degree of a relationship indicates how many entity types participate in it (unary = 1, binary = 2, ternary = 3).",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-19",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "A unique identifier for a row that cannot be NULL:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foreign Key"
+      },
+      {
+        "id": "B",
+        "text": "Primary Key"
+      },
+      {
+        "id": "C",
+        "text": "Alternate Key"
+      },
+      {
+        "id": "D",
+        "text": "Composite Key"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Primary Key uniquely identifies each row in a table and cannot contain NULL values under the Entity Integrity Constraint rule.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-20",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "A key in a table that references a Primary Key in another:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary Key"
+      },
+      {
+        "id": "B",
+        "text": "Foreign Key"
+      },
+      {
+        "id": "C",
+        "text": "Super Key"
+      },
+      {
+        "id": "D",
+        "text": "Candidate Key"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Foreign Key is an attribute in one table that references the primary key (or unique key) of another table, establishing a relationship and enforcing referential integrity.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-21",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "A key composed of two or more attributes together:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Composite Key"
+      },
+      {
+        "id": "B",
+        "text": "Foreign Key"
+      },
+      {
+        "id": "C",
+        "text": "Secondary Key"
+      },
+      {
+        "id": "D",
+        "text": "Unique Key"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Composite Key consists of two or more columns combined together to form a unique identifier for a record when no single column suffices.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-22",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "Any set of attributes that uniquely identifies a row:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Super Key"
+      },
+      {
+        "id": "B",
+        "text": "Foreign Key"
+      },
+      {
+        "id": "C",
+        "text": "Secondary Key"
+      },
+      {
+        "id": "D",
+        "text": "Index"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Super Key is any attribute or combination of attributes that uniquely identifies every tuple in a relation (it may include extraneous columns).",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-23",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "Candidate Keys are defined as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Minimal Super Keys"
+      },
+      {
+        "id": "B",
+        "text": "All Foreign Keys"
+      },
+      {
+        "id": "C",
+        "text": "Duplicate Keys"
+      },
+      {
+        "id": "D",
+        "text": "Secondary Indices"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Candidate Key is a minimal super key—a super key containing no redundant attributes from which the primary key is chosen.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-24",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "Entity Integrity Constraint enforces that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary Key cannot be NULL"
+      },
+      {
+        "id": "B",
+        "text": "FK must match PK"
+      },
+      {
+        "id": "C",
+        "text": "Data must be numbers"
+      },
+      {
+        "id": "D",
+        "text": "No keys are allowed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Entity Integrity constraint mandates that no component of a Primary Key attribute may take a NULL value, ensuring every row is identifiable.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-25",
+    "topic": "Database Fundamentals",
+    "subtopic": "Keys & Integrity",
+    "question": "Referential Integrity Constraint ensures that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foreign Key values must match PK or be NULL"
+      },
+      {
+        "id": "B",
+        "text": "Table names are unique"
+      },
+      {
+        "id": "C",
+        "text": "Columns are non-empty"
+      },
+      {
+        "id": "D",
+        "text": "Users have passwords"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Referential Integrity requires that any value in a Foreign Key column must either match an existing valid Primary Key value in the referenced parent table or be NULL.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-26",
+    "topic": "Database Fundamentals",
+    "subtopic": "Relational Model Concepts",
+    "question": "The set of allowable values for an attribute is called:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Domain"
+      },
+      {
+        "id": "B",
+        "text": "Tuple"
+      },
+      {
+        "id": "C",
+        "text": "Relation"
+      },
+      {
+        "id": "D",
+        "text": "Schema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Domain is the set of permissible atomic values that can be assigned to a specific attribute (e.g. valid phone formats, integer ranges).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-27",
+    "topic": "Database Fundamentals",
+    "subtopic": "DBMS Architecture & Data Independence",
+    "question": "Logical Data Independence allows changing the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conceptual schema without affecting apps"
+      },
+      {
+        "id": "B",
+        "text": "Hard drive location"
+      },
+      {
+        "id": "C",
+        "text": "Hardware server"
+      },
+      {
+        "id": "D",
+        "text": "User passwords"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Logical Data Independence is the ability to modify the conceptual schema (such as adding new attributes or tables) without needing to rewrite existing external views or application programs.",
+    "difficulty": "hard",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-28",
+    "topic": "Database Fundamentals",
+    "subtopic": "DBMS Architecture & Data Independence",
+    "question": "Physical Data Independence allows modifying:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Physical storage structures independently"
+      },
+      {
+        "id": "B",
+        "text": "App code"
+      },
+      {
+        "id": "C",
+        "text": "Column names"
+      },
+      {
+        "id": "D",
+        "text": "Query syntax"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Physical Data Independence is the capacity to alter internal/physical storage structures (such as indexes, file organization, or storage media) without requiring changes to the conceptual schema.",
+    "difficulty": "hard",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-29",
+    "topic": "Database Fundamentals",
+    "subtopic": "DBMS Architecture & Data Independence",
+    "question": "The ANSI-SPARC Three-Schema Architecture consists of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internal, Conceptual, External levels"
+      },
+      {
+        "id": "B",
+        "text": "Primary, Secondary, Tertiary"
+      },
+      {
+        "id": "C",
+        "text": "Input, Process, Output"
+      },
+      {
+        "id": "D",
+        "text": "Data, Metadata, Log"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The ANSI-SPARC 3-tier architecture separates database representation into Internal (physical storage), Conceptual (logical organization of entities/relationships), and External (individual user views).",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "db-orig-30",
+    "topic": "Database Fundamentals",
+    "subtopic": "DBMS Concepts & Architecture",
+    "question": "A Data Dictionary (Data Repository) stores:",
+    "options": [
+      {
+        "id": "A",
+        "text": "User passwords only"
+      },
+      {
+        "id": "B",
+        "text": "Database schema, definitions & constraints"
+      },
+      {
+        "id": "C",
+        "text": "Raw data values"
+      },
+      {
+        "id": "D",
+        "text": "External file backups"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Data Dictionary contains metadata: definitions of tables, fields, indexes, integrity rules, security privileges, and relationship schemas within the DBMS.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "Database_Fundamentals_30_MCQ_Questions.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-01",
+    "topic": "SQL",
+    "subtopic": "SQL Introduction & Syntax",
+    "question": "ما معنى اختصار SQL؟ (What does the acronym SQL stand for?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Structured Question Language"
+      },
+      {
+        "id": "B",
+        "text": "Structured Query Language"
+      },
+      {
+        "id": "C",
+        "text": "Strong Query List"
+      },
+      {
+        "id": "D",
+        "text": "Simple Query Language"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SQL stands for Structured Query Language. It is the standardized declarative language used for storing, manipulating, and retrieving data in relational databases.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-02",
+    "topic": "SQL",
+    "subtopic": "Basic Queries & SELECT",
+    "question": "الأمر المستخدم لاستخراج البيانات هو: (The command used to extract/retrieve data is:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "GET"
+      },
+      {
+        "id": "B",
+        "text": "OPEN"
+      },
+      {
+        "id": "C",
+        "text": "SELECT"
+      },
+      {
+        "id": "D",
+        "text": "EXTRACT"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The SELECT statement in SQL is used to query and fetch records from one or more database tables.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-03",
+    "topic": "SQL",
+    "subtopic": "Basic Queries & SELECT",
+    "question": "اختيار جميع الأعمدة من جدول Customers: (Select all columns from Customers table:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "SELECT Customers;"
+      },
+      {
+        "id": "B",
+        "text": "SELECT * FROM Customers;"
+      },
+      {
+        "id": "C",
+        "text": "SELECT [all] FROM C;"
+      },
+      {
+        "id": "D",
+        "text": "SELECT all FROM C;"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The asterisk (*) wildcard in a SELECT clause specifies that all columns from the designated table (Customers) should be returned.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-04",
+    "topic": "SQL",
+    "subtopic": "Basic Queries & SELECT",
+    "question": "اختيار قيم فريدة بدون تكرار: (Select unique values without duplicates:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "SELECT UNIQUE"
+      },
+      {
+        "id": "B",
+        "text": "SELECT DISTINCT"
+      },
+      {
+        "id": "C",
+        "text": "SELECT DIFFERENT"
+      },
+      {
+        "id": "D",
+        "text": "SELECT SINGLE"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SELECT DISTINCT removes duplicate rows from the query results, returning only unique values across the specified columns.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-05",
+    "topic": "SQL",
+    "subtopic": "Filtering & WHERE Clause",
+    "question": "العبارة المستخدمة لتصفية السجلات بناءً على شرط: (The clause used to filter records based on a condition:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "WHERE"
+      },
+      {
+        "id": "B",
+        "text": "FILTER"
+      },
+      {
+        "id": "C",
+        "text": "HAVING"
+      },
+      {
+        "id": "D",
+        "text": "SEARCH"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The WHERE clause filters individual rows prior to grouping, evaluating boolean conditions on table columns.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-06",
+    "topic": "SQL",
+    "subtopic": "Filtering & WHERE Clause",
+    "question": "المعامل المستخدم لاختيار مدى من القيم (Range): (The operator used to select a range of values:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "IN"
+      },
+      {
+        "id": "B",
+        "text": "BETWEEN"
+      },
+      {
+        "id": "C",
+        "text": "LIKE"
+      },
+      {
+        "id": "D",
+        "text": "WITHIN"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The BETWEEN operator selects values within an inclusive range (e.g. WHERE price BETWEEN 10 AND 50).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-07",
+    "topic": "SQL",
+    "subtopic": "Pattern Matching & LIKE",
+    "question": "للبحث عن نمط نصي معين نستخدم: (To search for a specific text pattern, we use:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "MATCH"
+      },
+      {
+        "id": "B",
+        "text": "SEARCH"
+      },
+      {
+        "id": "C",
+        "text": "LIKE"
+      },
+      {
+        "id": "D",
+        "text": "CONTAINS"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The LIKE operator is used in a WHERE clause to perform wildcard string pattern matching.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-08",
+    "topic": "SQL",
+    "subtopic": "Pattern Matching & LIKE",
+    "question": "رمز % مع المعامل LIKE يعبر عن: (The % wildcard in LIKE represents:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "حرف واحد فقط (Single character only)"
+      },
+      {
+        "id": "B",
+        "text": "صفر أو أكثر من الحروف (Zero or more characters)"
+      },
+      {
+        "id": "C",
+        "text": "أرقام فقط (Digits only)"
+      },
+      {
+        "id": "D",
+        "text": "مسافة فارغة (Whitespace only)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In standard SQL LIKE patterns, percent (%) matches any sequence of zero, one, or multiple characters.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-09",
+    "topic": "SQL",
+    "subtopic": "Pattern Matching & LIKE",
+    "question": "رمز الشحطة _ مع LIKE يعبر عن: (The underscore _ wildcard in LIKE represents:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "حرف واحد فقط (Exactly one character)"
+      },
+      {
+        "id": "B",
+        "text": "عدة حروف (Multiple characters)"
+      },
+      {
+        "id": "C",
+        "text": "مسافة فارغة (Whitespace)"
+      },
+      {
+        "id": "D",
+        "text": "رقم واحد فقط (Single digit only)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "In SQL LIKE patterns, underscore (_) represents exactly one single character match.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-10",
+    "topic": "SQL",
+    "subtopic": "Sorting & ORDER BY",
+    "question": "العبارة المستخدمة لترتيب النتائج هي: (The clause used to sort query results is:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "SORT BY"
+      },
+      {
+        "id": "B",
+        "text": "GROUP BY"
+      },
+      {
+        "id": "C",
+        "text": "ORDER BY"
+      },
+      {
+        "id": "D",
+        "text": "ARRANGE BY"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "ORDER BY sorts the returned records in ascending (ASC) or descending (DESC) order based on specified columns.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-11",
+    "topic": "SQL",
+    "subtopic": "Sorting & ORDER BY",
+    "question": "الترتيب الافتراضي لـ ORDER BY هو: (The default sorting order for ORDER BY is:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "تنازلي (DESC)"
+      },
+      {
+        "id": "B",
+        "text": "تصاعدي (ASC)"
+      },
+      {
+        "id": "C",
+        "text": "عشوائي (Random)"
+      },
+      {
+        "id": "D",
+        "text": "بدون ترتيب (No order)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "If no order keyword is specified, ORDER BY defaults to ascending order (ASC) from smallest to largest.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-12",
+    "topic": "SQL",
+    "subtopic": "Data Manipulation (DML)",
+    "question": "ما الأمر المستخدم لإضافة صفوف جديدة للجدول؟ (What command is used to add new rows to a table?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "ADD RECORD"
+      },
+      {
+        "id": "B",
+        "text": "CREATE ROW"
+      },
+      {
+        "id": "C",
+        "text": "INSERT INTO"
+      },
+      {
+        "id": "D",
+        "text": "UPDATE"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "INSERT INTO inserts new records into an existing database table (e.g., INSERT INTO table_name (col1, col2) VALUES (val1, val2)).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-13",
+    "topic": "SQL",
+    "subtopic": "Data Manipulation (DML)",
+    "question": "ما الأمر المستخدم لتعديل بيانات موجودة؟ (What command is used to modify existing data?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "MODIFY"
+      },
+      {
+        "id": "B",
+        "text": "UPDATE"
+      },
+      {
+        "id": "C",
+        "text": "CHANGE"
+      },
+      {
+        "id": "D",
+        "text": "SAVE"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The UPDATE command modifies existing column values in a table, commonly used with a WHERE clause to target specific records.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-14",
+    "topic": "SQL",
+    "subtopic": "Data Manipulation (DML)",
+    "question": "ما الأمر المستخدم لحذف سجلات من جدول؟ (What command is used to delete records from a table?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "REMOVE"
+      },
+      {
+        "id": "B",
+        "text": "DROP"
+      },
+      {
+        "id": "C",
+        "text": "DELETE"
+      },
+      {
+        "id": "D",
+        "text": "ERASE"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The DELETE FROM statement removes specified rows from a table while retaining the table schema.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-15",
+    "topic": "SQL",
+    "subtopic": "Aggregate Functions",
+    "question": "أي دالة تُستخدم لحساب عدد الصفوف؟ (Which function is used to count the number of rows?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "SUM()"
+      },
+      {
+        "id": "B",
+        "text": "COUNT()"
+      },
+      {
+        "id": "C",
+        "text": "NUMBER()"
+      },
+      {
+        "id": "D",
+        "text": "TOTAL()"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "COUNT() returns the total number of rows matching the query criteria (e.g. COUNT(*) or COUNT(column_name)).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-16",
+    "topic": "SQL",
+    "subtopic": "Aggregate Functions",
+    "question": "أي دالة تُستخدم لحساب المجموع الكلي؟ (Which function is used to calculate the sum of values?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "TOTAL()"
+      },
+      {
+        "id": "B",
+        "text": "COUNT()"
+      },
+      {
+        "id": "C",
+        "text": "SUM()"
+      },
+      {
+        "id": "D",
+        "text": "ADD()"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SUM() calculates the total mathematical sum of a numeric column, ignoring NULL values.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-17",
+    "topic": "SQL",
+    "subtopic": "GROUP BY & Aggregation",
+    "question": "لتجميع الصفوف المتشابهة نستخدم: (To group identical/similar rows together, we use:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "GROUP BY"
+      },
+      {
+        "id": "B",
+        "text": "ORDER BY"
+      },
+      {
+        "id": "C",
+        "text": "CLUSTER BY"
+      },
+      {
+        "id": "D",
+        "text": "COLLECT BY"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "GROUP BY groups rows that share values in specified columns into summary rows for aggregate functions (COUNT, SUM, AVG, MIN, MAX).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-18",
+    "topic": "SQL",
+    "subtopic": "GROUP BY & Aggregation",
+    "question": "لتصفية نتائج التجميع (Aggregates) نستخدم: (To filter aggregate results, we use:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "WHERE"
+      },
+      {
+        "id": "B",
+        "text": "HAVING"
+      },
+      {
+        "id": "C",
+        "text": "LIKE"
+      },
+      {
+        "id": "D",
+        "text": "FILTER"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "HAVING filters groups created by GROUP BY after aggregations have been calculated, unlike WHERE which filters individual rows before grouping.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-19",
+    "topic": "SQL",
+    "subtopic": "NULL Values & Logic",
+    "question": "القيمة NULL في SQL تعني: (The NULL value in SQL means:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "القيمة صفر (Zero value)"
+      },
+      {
+        "id": "B",
+        "text": "نص فارغ (Empty string)"
+      },
+      {
+        "id": "C",
+        "text": "قيمة مفقودة أو غير معروفة (Missing or unknown value)"
+      },
+      {
+        "id": "D",
+        "text": "خطأ بالنظام (System error)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "NULL in SQL indicates the absence of any value or an unknown/unrecorded data entry. It is neither 0 nor an empty string.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-20",
+    "topic": "SQL",
+    "subtopic": "NULL Values & Logic",
+    "question": "للتحقق من القيمة المفقودة نستخدم: (To check for a NULL / missing value, we use:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "= NULL"
+      },
+      {
+        "id": "B",
+        "text": "IS NULL"
+      },
+      {
+        "id": "C",
+        "text": "EQUAL NULL"
+      },
+      {
+        "id": "D",
+        "text": "LIKE NULL"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Because NULL represents an unknown, direct equality (= NULL) always evaluates to UNKNOWN. SQL provides IS NULL (and IS NOT NULL) to test for null values.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-21",
+    "topic": "SQL",
+    "subtopic": "Joins",
+    "question": "الربط الذي يعيد الصفوف المتطابقة في الجدولين فقط: (The join that returns only matching rows from both tables:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "LEFT JOIN"
+      },
+      {
+        "id": "B",
+        "text": "INNER JOIN"
+      },
+      {
+        "id": "C",
+        "text": "FULL JOIN"
+      },
+      {
+        "id": "D",
+        "text": "RIGHT JOIN"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "INNER JOIN combines rows from two tables only where the join condition is satisfied in both tables.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-22",
+    "topic": "SQL",
+    "subtopic": "Joins",
+    "question": "الربط الذي يعيد كل الأيسر والمتطابق من الأيمن: (The join that returns all rows from the left table and matched rows from the right table:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "LEFT JOIN"
+      },
+      {
+        "id": "B",
+        "text": "RIGHT JOIN"
+      },
+      {
+        "id": "C",
+        "text": "INNER JOIN"
+      },
+      {
+        "id": "D",
+        "text": "CROSS JOIN"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "LEFT JOIN (or LEFT OUTER JOIN) returns all records from the left table, and matching records from the right table; unmatched right-side columns are filled with NULLs.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-23",
+    "topic": "SQL",
+    "subtopic": "Data Definition (DDL)",
+    "question": "الأمر المستخدم لإنشاء جدول جديد هو: (The command used to create a new table is:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "NEW TABLE"
+      },
+      {
+        "id": "B",
+        "text": "CREATE TABLE"
+      },
+      {
+        "id": "C",
+        "text": "MAKE TABLE"
+      },
+      {
+        "id": "D",
+        "text": "ADD TABLE"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CREATE TABLE is the DDL command used to define and instantiate a new table with its columns and constraint definitions.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-24",
+    "topic": "SQL",
+    "subtopic": "Data Definition (DDL)",
+    "question": "لحذف جدول بالكامل وهيكله نستخدم: (To completely remove a table and its structure, we use:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "DELETE TABLE"
+      },
+      {
+        "id": "B",
+        "text": "REMOVE TABLE"
+      },
+      {
+        "id": "C",
+        "text": "DROP TABLE"
+      },
+      {
+        "id": "D",
+        "text": "CLEAR TABLE"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "DROP TABLE completely deletes the table structure, its columns, constraints, indexes, and all stored rows from the database.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-25",
+    "topic": "SQL",
+    "subtopic": "Data Definition (DDL)",
+    "question": "الأمر المستخدم لتعديل هيكل جدول (إضافة/حذف عمود): (The command used to modify table structure (add/drop column):)",
+    "options": [
+      {
+        "id": "A",
+        "text": "ALTER TABLE"
+      },
+      {
+        "id": "B",
+        "text": "UPDATE TABLE"
+      },
+      {
+        "id": "C",
+        "text": "MODIFY TABLE"
+      },
+      {
+        "id": "D",
+        "text": "CHANGE TABLE"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ALTER TABLE modifies existing table schemas by adding, modifying, renaming, or dropping columns and constraints.",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-26",
+    "topic": "SQL",
+    "subtopic": "Keys & Constraints",
+    "question": "المفتاح الذي يحدد بشكل فريد كل صف في الجدول: (The key that uniquely identifies each row in a table:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foreign Key"
+      },
+      {
+        "id": "B",
+        "text": "Primary Key"
+      },
+      {
+        "id": "C",
+        "text": "Unique Index"
+      },
+      {
+        "id": "D",
+        "text": "Candidate Key"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Primary Key uniquely identifies each row in a table, enforcing uniqueness and not-null constraints.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-27",
+    "topic": "SQL",
+    "subtopic": "Keys & Constraints",
+    "question": "الحقل الذي يربط بجدول آخر ويشير للمفتاح الرئيسي: (The field linking to another table referencing its primary key:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Primary Key"
+      },
+      {
+        "id": "B",
+        "text": "Foreign Key"
+      },
+      {
+        "id": "C",
+        "text": "Secondary Key"
+      },
+      {
+        "id": "D",
+        "text": "Main Key"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Foreign Key is a field (or collection of fields) in one table that uniquely identifies a row of another table via its primary key.",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-28",
+    "topic": "SQL",
+    "subtopic": "SQL Commands & Sublanguages",
+    "question": "الأوامر SELECT و INSERT تنتمي إلى: (The commands SELECT and INSERT belong to:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "DDL"
+      },
+      {
+        "id": "B",
+        "text": "DML"
+      },
+      {
+        "id": "C",
+        "text": "DCL"
+      },
+      {
+        "id": "D",
+        "text": "TCL"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Data Manipulation Language (DML) consists of statements like SELECT, INSERT, UPDATE, and DELETE used to query and modify table rows (SELECT is also classified as DQL).",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-29",
+    "topic": "SQL",
+    "subtopic": "SQL Introduction & Syntax",
+    "question": "الترتيب الصحيح لكتابة استعلام SQL هو: (The correct syntactic order for writing a SQL query is:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "SELECT, WHERE, FROM"
+      },
+      {
+        "id": "B",
+        "text": "SELECT, FROM, WHERE, GROUP BY"
+      },
+      {
+        "id": "C",
+        "text": "FROM, SELECT, WHERE"
+      },
+      {
+        "id": "D",
+        "text": "SELECT, GROUP, FROM"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The standard SQL syntax order is SELECT [columns] FROM [tables] WHERE [row_condition] GROUP BY [columns] HAVING [group_condition] ORDER BY [columns].",
+    "difficulty": "medium",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  },
+  {
+    "id": "sql-orig-30",
+    "topic": "SQL",
+    "subtopic": "Basic Queries & SELECT",
+    "question": "الكلمة المفتاحية لإعطاء اسم مستعار (Alias): (The keyword to assign an alias is:)",
+    "options": [
+      {
+        "id": "A",
+        "text": "AS"
+      },
+      {
+        "id": "B",
+        "text": "IS"
+      },
+      {
+        "id": "C",
+        "text": "NAME"
+      },
+      {
+        "id": "D",
+        "text": "RENAME"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The AS keyword assigns a temporary alias name to a table or column (e.g., SELECT first_name AS fname).",
+    "difficulty": "easy",
+    "sourceType": "pdf",
+    "sourceFile": "أسئلة_MCQ_في_أساسيات_SQL.pdf",
+    "sourcePage": 1,
+    "reviewStatus": "verified"
+  }
+]
